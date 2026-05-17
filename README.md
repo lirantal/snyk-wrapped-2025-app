@@ -62,3 +62,7 @@ The engine produces a JSON payload representing the organization's security impa
 - **Optimization**: Fetches only `status=resolved` issues and uses `updated_after` query parameters to minimize data transfer.
 - **Rate Limiting**: Implements exponential backoff and respects `retry-after` headers.
 - **Pagination**: Automatically follows `links.next` cursors to aggregate all data for the specified period.
+
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
