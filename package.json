@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "snyk-wrapped-2025-app",
   "version": "1.0.0",
   "description": "",
@@ -20,5 +16,9 @@
     "@types/node": "^25.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
